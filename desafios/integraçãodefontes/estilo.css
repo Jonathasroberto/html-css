@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*isso e uma orientação*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap'); 
+
+@font-face {
+    font-family: 'Frederick';
+    src: url('Fonte/FrederickatheGreat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'anton';
+    src: url('Fonte/Anton-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+h1{
+  font-family: 'Monofett', cursive;;
+  font-size: 65px;
+  width: 230px;
+  height: 35px;
+}
+hr{ 
+  border-radius: 10px;
+  posit
+  width: 250px;
+}
+p{ 
+   
+    font-family: 'Frederick',sans-serif;
+}
+h2{
+    width: 170px;    
+}
+.principal::before {
+  content: '>>';
+}
+.principal::after{
+  content:'<<';
+  
+}
+h2:hover{
+    border-radius: 10px;
+    color:aliceblue;
+    font-family: anton, sans-serif;
+    font-size: 45px;
+    background-color: rgba(0, 0, 0, 0.498);
+}
