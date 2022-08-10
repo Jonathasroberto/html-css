@@ -1,4 +1,4 @@
 # html-css
  Praticas
 
-<a href="https://jonathasroberto.github.io/html-css/exercicios/Wallpeiper/wallpaper.html">Wallpaper<a>
+<a href="https://jonathasroberto.github.io/https://github.com/Jonathasroberto/html-css/tree/main/exercicios/Wallppeiper">Wallpaper<a>
