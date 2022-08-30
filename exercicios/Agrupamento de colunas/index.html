@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas agrupadas</title>
+    <style>
+        #container{
+            max-width: 350px;
+            overflow: auto;
+        }
+        tbody tr:nth-child(odd){
+            background-color: #d9d9d9;
+
+        }
+
+        
+        caption{
+            font-variant: small-caps;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+
+        table{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            color: white;
+            background-color:#227447 ;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>Vendas de doçes</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Trim 1</th>
+                    <th scope="col">Trim 2</th>
+                    <th scope="col">Total Geral</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td scope="row" class="zebrado">Chocolate</td>
+                <td>R$750,00</td>
+                <td>R$150,00</td>
+                <td>R$900,00</td>
+                </tr>
+                <tr>
+                <td scope="row">Bala de goma</td>
+                <td>R$5.000</td>
+                <td>R$1.200</td>
+                <td>R$6.300</td>
+                </tr>
+                <tr>
+                <td scope="row" class="zebrado">Pão escocês</td>
+                <td>R$1.200</td>
+                <td>R$1.000</td>
+                <td>R$2.300</td>
+                </tr>
+                <tr>
+                <td scope="row">Scones do Sr.Diogo</td>
+                <td>R$1.400</td>
+                <td>R$700</td>
+                <td>R$2.170</td>
+                </tr>
+                <tr>
+                <td scope="row" class="zebrado">Torta de açúcar</td>
+                <td>R$4.700</td>
+                <td>R$4.500</td>
+                <td>R$9.200</td>
+                </tr>
+                <tr>
+                <td scope="row"> Biscoitos de chocolate</td>
+                <td>R$900</td>
+                <td>R$300</td>
+                <td>R$1.200</td>
+                </tr>
+                <tr>
+                <th scope="row" class="zebrado">Total</th>
+                <td>R$14.100</td>
+                <td>R$8.200</td>
+                <td>R$22.300</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
