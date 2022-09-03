@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+    <style>
+        body{
+            background-image: url(https://thumbs.dreamstime.com/b/mesh-background-abstrato-azul-os-c%C3%ADrculos-as-linhas-e-as-formas-da-mitiga%C3%A7%C3%A3o-illusrtated-77368850.jpg);
+        }
+        iframe{ display: flex;
+            margin-bottom: 15px;
+            border: 1px dashed black;
+            width: 50vw;
+            height: 500px;
+
+            transform: translate(-50%, -50%);
+            
+            position: relative;
+            left: 50vw;
+            top: 35vh;
+
+            
+
+        }
+        p{
+            color: black;
+            display: inline-block;
+            padding: 15px;
+            text-decoration: none;
+        }
+        p:hover{
+            text-decoration:underline;
+            color: black;
+            background-color: rgb(156, 154, 154);
+            transition: background ;
+            transition-duration: 1s;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Esse e meu primeiro iframe</h1>
+    <a href="https://superfilmes.io/filmes/" target="frame" rel="external">
+        <p>Filmes</p>
+    </a>
+    <a href="https://www.typingstudy.com/pt-portuguese-2/lesson/12/part/7" target="frame"  rel="external">
+        <p>Digitação</p>
+    </a>
+    <a href="https://css-tricks.com/almanac/properties/b/border-image/" target="frame"rel="external">
+        <p>Borders</p>
+    </a>
+
+    <iframe src="" frameborder="0" name="frame" ></iframe>
+</body>
+</html>
