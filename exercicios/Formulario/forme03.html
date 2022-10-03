@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Formulario 3</title>
+        <style>
+         #tmensagem{
+            padding: 10px;
+         }
+
+        </style>
+
+    </head>
+    <body>
+      
+            <fieldset>
+                <legend>Orçamento</legend>
+                
+                <form action="cadastro.php" autocomplete="on" method="post">
+                    <p><label for="inome">Nome:</label>
+                    <input type="text" maxlenght="15" minlenght="5" name="nome" id="inome" placeholder="Ex:João castro " required ></p>
+
+                    <p><label for="inota">Nota:</label>
+                    <input type="range" min="1" max="10" value="5" name="nota" id="inota" oninput="ival.innerHTML = Number(inota.value)"> 
+                    <output id="ival">5</output></p>
+                    <select name="movel" id="imovel">
+                        <optgroup label="Moveis">
+                            <option value="gurda roupa">Guarda roupa</option> 
+                            <option value="comoda"> Comoda</option>
+                            <option value="rack+">Rack+Painel</option>
+                            <option value="estante">Estante</option>
+                            <option value="cozinha">Cozinha</option>
+                        </optgroup>
+                    </select><br>
+                    <p id="tmensagem"><label for="imsg">Mansagem:</label><br></p>
+                    <textarea name="msg" id="imsg" cols="28" rows="10"></textarea><br>
+                    
+
+                    <input type="submit" name="enviar" id="ienviar">
+                    <input type="reset" value= "Limpar">
+            </fieldset>
+
+
+            
+
+
+        </form>
+    </body>
+
+
+</html>
