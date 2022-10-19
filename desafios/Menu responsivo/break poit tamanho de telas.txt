@@ -1,0 +1,10 @@
+tale celular
+320 ate 425	
+
+
+tela tablet
+425 ate 850	
+
+tela pc
+
+850 ate 1536
