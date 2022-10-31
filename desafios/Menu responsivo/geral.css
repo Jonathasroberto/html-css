@@ -9,16 +9,28 @@
 header{
         background-color: rgb(164, 164, 164);
 }
+
 h1{
     text-align: center;
-}
-header > menu > ul > li{
+    margin-bottom: 10px;
+} 
+header > menu > ul > li {
+    
     background-color: rgb(69, 69, 69);
     color: white;
-    display: inline;
-    border-radius: 3px;
+    display:inline ;
+    border-radius: 2px;
     padding: 5px;
+
 }
+header > menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    display:inline ;
+
+    
+}
+
 menu > ul {
     list-style-type: none;
     padding-bottom: 5px;
@@ -26,9 +38,11 @@ menu > ul {
 main{
     margin: auto;
     text-indent: 10px;
-    width: 80vw;
+    width: 70vw;
+    background-color:whitesmoke;
     
 }
 h2{
+    text-align: center;
     margin-bottom: 7px;
 }
